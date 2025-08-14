@@ -1,4 +1,5 @@
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaTiktok } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTiktok } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
 export const navbarLinks = [
     {
         id: 1,
@@ -27,7 +28,7 @@ export const socialLinks = [
         id: 2,
         title: 'Twitter',
         url: 'https://www.twitter.com',
-        icon: <FaTwitter />,
+        icon: <FaSquareXTwitter />,
     },
     {
         id: 3,
